@@ -1,0 +1,27 @@
+<p>pipe-ex works!</p>
+<div class="row">
+    <div class="col-3">
+        <p>{{ courseName }}</p>
+        <p>after uppercase => {{ courseName | uppercase }}</p>
+        <p>after lowercase => {{ courseName | lowercase }}</p>
+        <p>after capitalcase => {{ courseDuration | titlecase }}</p>
+    </div>
+    <div class="col-4">
+        <p>{{ courseDate }}</p>
+        <p>{{ courseDate |date }}</p>
+        <p>{{ courseDate |date:'dd-MM-yyyy' }}</p>
+        <p>{{ courseDate |date:'yyyy-MM-dd'}}</p>
+         
+    </div>
+</div>
+<div class="row">
+    <div class="col-4">
+        <p>{{ studentObj }}</p>
+        <p>{{ studentObj |json }}</p>
+    </div>
+    <div class="col-4">
+        name: {{ studentObj.name  |na }} <br>
+        email: {{ studentObj.email |na }} <br>
+        state: {{ studentObj.state |na }}
+    </div>
+</div>
