@@ -6,6 +6,7 @@ import { SignalEx } from './components/signal-ex/signal-ex';
 import { AttDirective } from './components/att-directive/att-directive';
 import { GetApi } from './components/get-api/get-api';
 import { User } from './components/user/user';
+import { ReactiveUser } from './components/reactive-user/reactive-user';
 export const routes: Routes = [
     {
         path:'admin',
@@ -34,5 +35,9 @@ export const routes: Routes = [
     {
         path:'users',
         component:User
+    },
+    {
+        path:'reactiveuser',
+        component:ReactiveUser
     }
 ];
