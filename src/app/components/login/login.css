@@ -1,0 +1,20 @@
+.login-box {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #6c63ff;
+}
+.btn-primary {
+    background-color: #6c63ff;
+    border-color: #6c63ff;
+}
+.btn-primary:hover {
+    background-color: #5952cc;
+    border-color: #5952cc;
+}
